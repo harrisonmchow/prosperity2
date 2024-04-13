@@ -48,6 +48,8 @@ class Trader:
             return 9998, 10001  # Example buy and sell prices
         elif (product == "STARFRUIT"):
             return 5079, 5081  # Example buy and sell prices
+        elif (product == "ORCHIDS"):
+            return 1180, 1210 # Example buy and sell prices
         else:
             return 100, 110
 
